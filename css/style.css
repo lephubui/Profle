@@ -1,0 +1,146 @@
+body{
+    padding-top: 40px !important;
+}
+
+
+.navbar a{
+    color: #fff !important;
+    opacity: 0.7;
+}
+
+.navbar a:hover{
+    opacity: 1;
+    background-color: #111111 !important;
+}
+
+/*Bio*/
+
+.me{
+
+    padding: 20px 0 20px;
+    text-align: center;
+    border-bottom: 1px solid #6699cc;
+}
+
+.me b,
+.me h2,
+.me h4 {
+    margin: 20px 0 20px;
+    color: #4c4c4c;
+}
+
+
+.me p {
+    color: #737373;
+}
+
+.me image{
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+.me i {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 50%;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+.me a:hover{
+    opacity: 1;
+    background-size: 100%;
+    color: #fff;
+}
+/*Projects section*/
+.projects {
+    padding: 80px 0 80px;
+    text-align: center;
+    border-bottom: 1px solid #6699cc;
+}
+
+.projects h2,
+.projects h4 {
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.projects p {
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.projects i{
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+@media(max-width: 768px){
+    .projects{
+        padding:30px;
+        border-bottom: 1px solid #6699cc;
+    }
+}
+
+/*Contact*/
+.contact {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+    border-bottom: 1px solid #6699cc;
+}
+
+.contact p {
+    
+    padding-bottom: 80px;
+    color: #737373;
+}
+
+.contact h2 {
+    
+    color: #4c4c4c;
+    margin: 20px 0 20px;
+}
+
+.contact .input-group {
+    
+    margin-bottom: 20px;
+}
+
+.contact .form-control {
+    
+    border-radius: 0 !important;
+}
+
+.contact span {
+    
+    border-radius: 0 !important;
+}
+
+.contact .btn {
+   border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: #6699cc;
+    color: #fff;
+}
+
+.contact .btn:hover {
+    
+    background-color: #a85959 !important;
+    color: #fff !important;
+}
+
+.display-none {
+  display: none;
+}
+

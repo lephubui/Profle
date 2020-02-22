@@ -1,0 +1,36 @@
+
+aside {
+    background: #1f8dd6 !important; /* same color as selected state on site menu */
+    padding: 0.3em 1em !important;
+    border-radius: 3px !important;
+    color: #fff !important;
+    margin-bottom: 2em !important;
+}
+textarea {
+  width: 100% !important;
+}
+.content-head {
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  margin: 2em 0 1em !important;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white !important;
+  border-radius: 4px !important;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+  background: #6699cc !important; /* this is a green */ 
+  
+}
+.button-xlarge {
+  font-size: 125% !important;
+}
+button {
+  float: right !important;
+}
+#name, #email {
+  width: 50% !important;
+}
